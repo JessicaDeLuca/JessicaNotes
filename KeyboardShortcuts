@@ -1,0 +1,50 @@
+To open Atom from the terminal:
+$ atom file-or-directory
+
+Keyboard Shortcuts
+
+You should make a concerted effort to use the mouse as little as possible while you are developing.
+
+Note: META = CMD
+
+System Shortcuts
+
+To open an application, use Spotlight: META + SPACE
+To switch between applications: META + TAB
+To switch between open windows of a single application: META + `
+To quit an application: META + q
+To close a window of an application: META + W
+Atom Shortcuts
+
+To open Atom from the command line: $ atom file-or-directory
+To open a new file: META + n
+To close a tab: META + w
+To save a file: META + s
+Terminal/iTerm2 Shortcuts
+
+Window Management
+
+To open a new window: META + n
+To open a new tab: META + t
+To move left and right between tabs: META + LEFT ARROW / RIGHT ARROW
+To split a pane vertically: META + D
+To split a pane horizontally: SHIFT + META + D
+To move between panes: META + [ / ] (left or right bracket)
+To close a split pane or tab: META + w
+To clear the terminal screen: META + k
+Command Line Basic Commands
+
+ls: list files in current directory
+cd directory: change directories to directory
+cd ..: navigate up one directory
+mkdir new-dir: create a directory called new-dir
+rm some-file: remove some-file
+man some-cmd: pull up the manual for some-cmd
+pwd: find the path of the current directory
+mv path/to/file new/path/to/file: move a file or directory (also used for renaming)
+find . -name blah: find files in the current directory (and children) that have blah in their name
+Command Line Navigation
+
+To jump to beginning of line: CTRL + a
+To jump to end of line: CTRL + e
+To cycle through previous commands: UP ARROW / DOWN ARROW
