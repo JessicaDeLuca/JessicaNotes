@@ -1,0 +1,14 @@
+
+
+# http://stackoverflow.com/questions/18453566/python-dictionary-get-list-of-values-for-list-of-keys 
+
+Is there a built-in/quick way to use a list of keys to a dictionary to get a list of corresponding items?
+
+For instance I have:
+
+>>> mydict = {'one': 1, 'two': 2, 'three': 3}
+>>> mykeys = ['three', 'one']
+
+# Use a list comprehension
+>>> [mydict[x] for x in mykeys]
+[3, 1]
